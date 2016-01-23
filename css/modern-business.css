@@ -42,6 +42,11 @@ header.carousel .fill {
     background-size: cover;
 }
 
+
+.nav {
+     font-weight: bold;
+}
+
 /* 404 Page Styles */
 
 .error-404 {
@@ -91,3 +96,29 @@ footer {
         height: 70%;
     }
 }
+
+/*bureau.html*/
+.imgBureau {
+    margin: 0 auto;
+    width: 300px;
+    height: 300px;
+}
+
+
+/*stages.html*/
+
+.imgStage {
+    width: 300px;
+    height: auto;
+}
+
+.attStage{
+    font-family: "Arial";
+    font-weight: bold;
+}
+
+a.lienStage:link, a.lienStage:visited, a.lienStage:hover, a.lienStage:active{
+ text-decoration: none;   
+ color: #000;
+}
+
