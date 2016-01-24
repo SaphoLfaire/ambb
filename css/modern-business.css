@@ -122,3 +122,11 @@ a.lienStage:link, a.lienStage:visited, a.lienStage:hover, a.lienStage:active{
  color: #000;
 }
 
+.carte{
+    width: 910px;
+    height: 600px;
+    border: 0;
+    margin: auto;
+    display: block;
+}
+
