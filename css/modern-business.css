@@ -130,3 +130,16 @@ a.lienStage:link, a.lienStage:visited, a.lienStage:hover, a.lienStage:active{
     display: block;
 }
 
+img.linkedin {
+
+float: center;
+
+}
+
+
+table, th, td {
+    border-collapse: collapse;
+}
+th, td {
+    padding: 15px;
+}
