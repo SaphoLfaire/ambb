@@ -6,6 +6,7 @@
 
 /* Global Styles */
 
+
 html,
 body {
     height: 100%;
@@ -96,7 +97,11 @@ footer {
         height: 70%;
     }
 }
-
+.banner {
+    position: relative;
+    width: 100%;
+    height: auto;
+}
 /*bureau.html*/
 .imgBureau {
     margin: 0 auto;
