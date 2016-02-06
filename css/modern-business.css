@@ -137,10 +137,14 @@ a.lienStage:link, a.lienStage:visited, a.lienStage:hover, a.lienStage:active{
 
 img.linkedin {
 
-float: center;
-
+margin-left: auto;
+    margin-right: auto;
 }
 
+th, td
+{
+    text-align: center;
+}
 
 table, th, td {
     border-collapse: collapse;
