@@ -134,13 +134,21 @@ a.lienStage:link, a.lienStage:visited, a.lienStage:hover, a.lienStage:active{
     margin: auto;
     display: block;
 }
-
+.carousel img {
+  
+  min-width: 100%;
+  height: 500px;
+  max-width: none;
+}
 img.linkedin {
 
 margin-left: auto;
     margin-right: auto;
 }
-
+.img-projets{
+    width: 700px;
+    height: 400px;
+}
 th, td
 {
     text-align: center;
@@ -152,6 +160,8 @@ table, th, td {
 th, td {
     padding: 15px;
 }
-th:hover{
+
+
+table.sortable > thead > tr > th:hover{
     cursor: pointer;
 }

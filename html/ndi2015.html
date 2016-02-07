@@ -3,16 +3,27 @@
 
 <head>
 
+ <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+  <script src="../js/jquery.js"></script>
+  <script src="../js/bootstrap.min.js"></script>
+ 
+
+
+
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Modern Business - Start Bootstrap Template</title>
+    <title>AMBB</title>
+    <link rel="shortcut icon" href="../images/logo.png" />
 
     <!-- Bootstrap Core CSS -->
-    <link href="../css/bootstrap.min.css" rel="stylesheet">
+    <link href="../css/bootstrap.css" rel="stylesheet">
 
     <!-- Custom CSS -->
     <link href="../css/modern-business.css" rel="stylesheet">
@@ -32,7 +43,7 @@
 <body>
 
     <!-- Navigation -->
-     <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
         <div class="container">
             <!-- Brand and toggle get grouped for better mobile display -->
             <div class="navbar-header">
@@ -42,7 +53,7 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="index.html">AMBB</a>
+                <a class="navbar-brand" href="#">AMBB</a>
             </div>
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
@@ -57,7 +68,7 @@
                         <a href="projets.html">Projets</a>
                     </li>
                     <li>
-                        <a href="annuaire.html">Annuraire</a>
+                        <a href="annuaire.html">Annuaire</a>
                     </li>
                     <li>
                         <a href="evenements.html">Évènements</a>
@@ -126,47 +137,92 @@
         <!-- /.container -->
     </nav>
 
-    <!-- Page Content -->
-    <div class="container">
+    <!-- Header Carousel -->
+    
+        <!-- Wrapper for slides -->
+        <div class="container">
+        <h1 class="page-header">Nuit de l'info 2015</h1>
+                <h2>La nuit de l'info</h2>
 
-        <!-- Page Heading/Breadcrumbs -->
-        <div class="row">
-            <div class="col-lg-12">
-                <h1 class="page-header">Nos projets
-                    
-                </h1>
- 
-            </div>
-        </div>
-        <!-- /.row -->
+       <p> 
+<a href="http://www.nuitdelinfo.com/">La nuit de l'info</a> est une compétition nationale qui réunit étudiants, enseignants et entreprises pour travailler ensemble sur le développement d’une application web.
+Les participants ont la durée d'une nuit pour proposer, implémenter et packager une application <a href="https://fr.wikipedia.org/wiki/Web_2.0">Web 2.0</a>.
+                <h2>Version 2015</h2>
 
-        <!-- Projects Row -->
-        <div class="row">
-            <div class="col-md-6 img-portfolio">
-                <a href="igem.html">
-                    <img class="img-responsive img-hover img-projets" src="http://2015.igem.org/wiki/images/9/94/Up_Igemlogo_officiallogo.png" alt="igem">
-                </a>
-                <h3 class="text-center">
-                    <a href="igem.html">IGEM</a>
-                </h3>
-                <p>iGEM (international Genetically Engineered Machines) est un concours crée depuis 2004 par...</p>
-            </div>
-            <div class="col-md-6 img-portfolio">
-                <a href="ndi2015.html">
-                    <img class="img-projets img-responsive img-hover" src="https://raw.githubusercontent.com/aurelBZH/Maybee/master/Static/img/header.jpg" alt="">
-                </a>
-                <h3 class="text-center">
-                    <a href="../projets/Maybee/maybee_website/templates/Home.html">Nuit de l'info 2015</a>
-                </h3>
-                <p>La nuit de l'info est une compétition nationale qui réunit étudiants, enseignants et entreprises pour travailler ensemble sur le développement d’une ... </p>
-            </div>
+En suivant le <a href="https://fr.wikipedia.org/wiki/Web_2.0">sujet 2015</a>, nous avons développé un site permettant de sensibiliser les personnes par rapport à la disparition des abeilles en leur proposant de participer à des éléments ludiques (jeux, personnages, ...). De plus, ce site possède un outil permettant de reporter les disparitions d'abeilles permettant à la communauté scientifique de mieux situer les dangers pour ces dernières.
+<br/>
+<hr>
+                <h2>Liens</h2>
+
+<a href="https://github.com/aurelBZH/Maybee">
+Le lien git de Maybee.</a>
+
+<br/>
+<a href="../projets/BeeFlapy.zip">
+Le jeu proposé pour les petits et grands</a>
+
+
+                <h2>Souvenirs...</h2>
+
+<div id="myCarousel" class="carousel slide" data-ride="carousel">
+      <!-- Indicators -->
+      <ol class="carousel-indicators">
+        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+        <li data-target="#myCarousel" data-slide-to="1"></li>
+        <li data-target="#myCarousel" data-slide-to="2"></li>
+        <li data-target="#myCarousel" data-slide-to="3"></li>
+        <li data-target="#myCarousel" data-slide-to="4"></li>
+
+        <li data-target="#myCarousel" data-slide-to="5"></li>
+        <li data-target="#myCarousel" data-slide-to="6"></li>
+        <li data-target="#myCarousel" data-slide-to="7"></li>
+
+      </ol>
+      <div class="carousel-inner" role="listbox" id="diapoNDI2015">
+
+<div class="item active">
+        <img src="../images/ndi2015/ndi20151.jpg" class="carousel" alt="Photo nuit de l'info 2015"  >
+      </div>
+
+      <div class="item   ">
+        <img src="../images/ndi2015/ndi20150.jpg" class="carousel" alt="Photo nuit de l'info 2015" >
+      </div>
+
+      <div class="item">
+        <img src="../images/ndi2015/ndi20158.jpg" class="carousel" alt="Photo nuit de l'info 2015"  >
+      </div>
+      <div class="item">
+        <img src="../images/ndi2015/ndi20152.jpg" class="carousel" alt="Photo nuit de l'info 2015" >
+      </div>
+      <div class="item">
+        <img src="../images/ndi2015/ndi20153.jpg" class="carousel" alt="Photo nuit de l'info 2015"> 
         </div>
-        <!-- /.row -->
+        <div class="item">
+        <img src="../images/ndi2015/ndi20159.jpg" class="carousel" alt="Photo nuit de l'info 2015"  >
+      </div>
+
+      <div class="item">
+        <img src="../images/ndi2015/ndi20155.jpg" class="carousel" alt="Photo nuit de l'info 2015"  >
+      </div>
+      <div class="item">
+        <img src="../images/ndi2015/ndi20156.jpg" class="carousel" alt="Photo nuit de l'info 2015" >
+      </div>
+     
+      
+      
 
         
-        <!-- /.row -->
-
-        <hr>
+      </div>
+      <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div><!-- /.carousel -->
+ <hr>
 
         <!-- Footer -->
         <footer>
@@ -176,16 +232,8 @@
                 </div>
             </div>
         </footer>
-
-    </div>
-    <!-- /.container -->
-
-    <!-- jQuery -->
-    <script src="../js/jquery.js"></script>
-
-    <!-- Bootstrap Core JavaScript -->
-    <script src="../js/bootstrap.min.js"></script>
-
+ </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 </body>
 
 </html>
